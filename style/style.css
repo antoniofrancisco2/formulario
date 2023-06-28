@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #150820;
+}
+section {
+    margin-top: 100px;
+}
+form {
+    background-image: linear-gradient(to bottom, #301c41d7, #413b6bce);
+    border-radius: 10px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.253);
+    margin: auto;
+    width: 150px;
+    height: 270px;
+    padding: 10px 90px 60px 90px
+}
+
+p {
+    padding-bottom: 20px;
+}
+
+
+label {
+    color: white;
+    padding: 5px;
+}
+
+input {
+    background-color: #c8b6d8;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.212); 
+    color: #1c0b2b;
+    border-radius: 12px;
+    border: none;
+    padding-left: 10px;
+    width: 277px;
+    height: 40px;
+    margin-top: 7px;
+}
+
+::placeholder {
+    color: #1c0b2b;
+    padding: 10px;
+}
+
+input#botao {
+    color: #1c0b2b;
+    background-color: aqua;
+    box-shadow: 0px 1px 5px rgba(0, 255, 255, 0.479);
+    font-size: 16px;
+    font-weight: bold;
+}
+
+input#botao:hover {
+    background-color: rgb(3, 166, 172);
+}
+
+form h1 {
+    color: #6f95ff;
+    padding: 16px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+div {
+    margin-left: -65px;
+}
